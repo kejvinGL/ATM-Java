@@ -1,0 +1,16 @@
+Index: src/Banka.java
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/src/Banka.java b/src/Banka.java
+--- a/src/Banka.java	
++++ b/src/Banka.java	(date 1680914636349)
+@@ -31,6 +31,7 @@
+                         }else if (pronari.llogari[i] == null){
+                             Llogari tmp = new Llogari(ID_Llogari, ID_Klient, monedha, gjendja);
+                             Llogarite.add(tmp);
++                            break;
+                         }
+                     }
+                 }
